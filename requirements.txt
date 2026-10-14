@@ -1,0 +1,7 @@
+PyQt5==5.15.11
+qtawesome==1.4.2
+
+# Local CPU transcription via CTranslate2; no PyTorch dependency.
+faster-whisper==1.2.1
+# PyAV 19 removed metadata_errors, which faster-whisper 1.2.1 still passes.
+av==16.0.1

@@ -1,0 +1,51 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+crash_log.log
+
+# FFmpeg binaries (user should download separately)
+ffmpeg/
+
+# OS files
+.DS_Store
+Thumbs.db
+nul
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# ffmpeg binaries fetched at build time, never committed
+vendor/
+
+# Packaged output
+installer_output/
+ReelsMakerPro-windows-*.zip
+
+# Claude
+.claude/
+
+# Local verification artifacts
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.partial.mp4
